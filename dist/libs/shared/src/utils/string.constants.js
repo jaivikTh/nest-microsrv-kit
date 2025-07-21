@@ -1,0 +1,22 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ServiceUnavailable = exports.BadRequestError = exports.ResourceNotFound = exports.ForbiddenAccess = exports.UnauthorizedAccess = exports.DatabaseError = exports.ValidationFailed = exports.InternalServerError = exports.LoginFailed = exports.RegistrationFailed = exports.AccessDenied = exports.OrderAmountInvalid = exports.OrderNotFound = exports.EmailAlreadyExists = exports.UserAlreadyExists = exports.UserNotFound = exports.InvalidCredentials = exports.InvalidTokenSignature = void 0;
+exports.InvalidTokenSignature = "Token signature is invalid";
+exports.InvalidCredentials = "Invalid credentials";
+exports.UserNotFound = "User not found";
+exports.UserAlreadyExists = "User with this email already exists";
+exports.EmailAlreadyExists = "Email already exists";
+exports.OrderNotFound = "Order not found";
+exports.OrderAmountInvalid = "Order amount must be greater than 0";
+exports.AccessDenied = "Access denied: You can only access your own orders";
+exports.RegistrationFailed = "Registration failed due to server error";
+exports.LoginFailed = "Login failed due to server error";
+exports.InternalServerError = "Internal server error";
+exports.ValidationFailed = "Validation failed";
+exports.DatabaseError = "Database operation failed";
+exports.UnauthorizedAccess = "Unauthorized access";
+exports.ForbiddenAccess = "Forbidden access";
+exports.ResourceNotFound = "Resource not found";
+exports.BadRequestError = "Bad request";
+exports.ServiceUnavailable = "Service temporarily unavailable";
+//# sourceMappingURL=string.constants.js.map

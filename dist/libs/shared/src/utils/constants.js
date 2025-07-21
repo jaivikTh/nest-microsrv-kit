@@ -1,0 +1,22 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.CacheExpiryTime = exports.DatabaseTimeout = exports.RateLimitMaxRequests = exports.RateLimitWindow = exports.DefaultCurrency = exports.MaxOrderAmount = exports.MinOrderAmount = exports.MaxProductNameLength = exports.MaxEmailLength = exports.MaxNameLength = exports.MaxPasswordLength = exports.MinPasswordLength = exports.DefaultSortOrder = exports.TokenType = exports.TokenExpiryTime = exports.MaxPageSize = exports.DefaultPage = exports.PageSize = void 0;
+exports.PageSize = 10;
+exports.DefaultPage = 1;
+exports.MaxPageSize = 100;
+exports.TokenExpiryTime = 86400;
+exports.TokenType = 'Bearer';
+exports.DefaultSortOrder = 'DESC';
+exports.MinPasswordLength = 8;
+exports.MaxPasswordLength = 128;
+exports.MaxNameLength = 100;
+exports.MaxEmailLength = 255;
+exports.MaxProductNameLength = 255;
+exports.MinOrderAmount = 0.01;
+exports.MaxOrderAmount = 999999.99;
+exports.DefaultCurrency = 'USD';
+exports.RateLimitWindow = 900000;
+exports.RateLimitMaxRequests = 100;
+exports.DatabaseTimeout = 30000;
+exports.CacheExpiryTime = 3600;
+//# sourceMappingURL=constants.js.map
